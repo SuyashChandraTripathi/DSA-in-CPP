@@ -80,7 +80,7 @@
 // }
 // Ans. --> O((logn)^2)
 
-// ***Ques: Find the time complexity
+// ***Ques. 9 --> Find the time complexity
 // int n ;
 // cin >> n ;
 // for(int i = 1; i <= n; i*=2) {
@@ -88,4 +88,59 @@
 // cout << ("Suyash");
 // }
 // }
-// Ans. --> 
+// Ans. --> This problem can be solved using geometric progression . As we know the number of terms are log(n+1) base 2 
+//          so using GP the answer would be = O(n). 
+
+// Ques. 10 --> Find the time complexity 
+// for (int i = 0; i < n; i++) {
+//     for (int j = 0; j < n; j++) {
+//         cout << i << " ";
+//         break;
+//     }
+// }
+// Ans --> Since break is inside the inner loop so the inner loop will only break always not the outer one.
+//         Therfore answer will be = O(n)
+
+// Ques. 11 --> Find the time complexity 
+// int j = 0;
+// for (int i = 0; i < n; i++) {
+//     while (j < n) {
+//         cout << j << " ";
+//         j++;
+//     }
+// }
+// Ans --> O(n)
+
+// Ques. 12 --> Find the time complexity 
+// int n ;
+// cin >> n ;
+// for(i = 0 ; i < n ; i++){
+//     int j = 0 ;
+//     while(j < n){
+//         cout << j ;
+//         j++ ;
+//     }
+// }
+// Ans --> O(n^2)
+
+// Ques. 13 --> Find the time complexity 
+// for (int i = 0; i < n; i++) {
+//     for (int j = 0; j < n; j++) {
+//         continue;
+//     }
+// } 
+// Ans --> O(n^2)
+
+// Ques. 14 --> Find the time complexity
+// for (int i = 0; i < n; i++) {
+//     for (int j = 1; j <= n; j++) {
+//         i++;
+//     }
+// }
+// Ans --> O(n)
+
+// *****Ques. 15 --> Find the time complexity
+// for(int i = 2; i<= n; i*=i) {
+//     cout << (“                      ”);
+// }
+// Ans --> O(loglogn)
