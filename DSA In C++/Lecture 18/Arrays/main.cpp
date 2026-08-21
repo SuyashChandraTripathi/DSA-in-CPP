@@ -30,4 +30,19 @@ int main (){
 
     // int arr[4] ;
     // cout << arr[0] ; // Garbage value
+
+// INPUT
+
+    int n ;
+    cout << "Enter the size of array: " ;
+    cin >> n ;
+    int arr[n] ;
+    cout << "Enter the elements of array: " ;
+    for(int i = 0 ; i <= n-1 ; i++){
+        cin >> arr[i] ;
+    }
+    cout << "The array given as input is: " ;
+    for(int i = 0 ; i <= n-1 ; i++){
+        cout << arr[i] << " " ;
+    }
 }
