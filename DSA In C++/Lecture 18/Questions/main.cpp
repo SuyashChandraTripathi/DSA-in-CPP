@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath> 
+#include <climits>
 using namespace std ;
 int main(){
 
@@ -63,6 +64,43 @@ int main(){
 
 
 // Print the maximum element in the array 
+    // int n ;
+    // cout << "Enter the number of elements in the array: " ;
+    // cin >> n ;
+    // int arr[n] ;
+    // cout << "Enter each element of the array: " ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     cin >> arr[i] ;
+    // }
+    // cout << "The array as given in the input is --> " ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     cout << arr[i] << " " ;
+    // }
+    // int max = INT_MIN ;
+    // for (int i = 0 ; i <= n-1 ; i++){
+    //     if(arr[i] > max) max = arr[i] ;
+    // }
+    // cout << "\nMaximum value of all the elements in the array is --> " << max ;
+ 
 
-
+// Print the minimum element in the array.
+    // int n ;
+    // cout << "Enter the number of elements in the array: " ;
+    // cin >> n ;
+    // cout << "Enter each element of the array: " ;
+    // int arr[n] ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     cin >> arr[i] ;
+    // }
+    // cout << "The array given in input is --> " ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     cout << arr[i] << " " ;
+    // }
+    // int min = INT_MAX ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     if (arr[i] < min) min = arr[i] ;
+    // }
+    // cout << "\nMinimum value element among all in the array is --> " << min ;
+    
 }
+
