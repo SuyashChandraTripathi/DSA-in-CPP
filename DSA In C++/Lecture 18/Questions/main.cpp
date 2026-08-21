@@ -41,5 +41,28 @@ int main(){
     // cout << sum ;
 
 
-// 
+// Print product of elements of the array
+    // int n ;
+    // cout << "Enter the number of elements in the array: " ;
+    // cin >> n ;
+    // int arr[n] ;
+    // cout << "Enter each element of the array: " ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     cin >> arr[i] ;
+    // }
+    // cout << "The array as given in the input is --> " ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     cout << arr[i] << " " ;
+    // }
+    // int prod = 1 ;
+    // cout << "\nProduct of the elements in the array is: " ;
+    // for(int i = arr[0] ; i <= arr[n-1] ; i++){
+    //     prod *= i ;
+    // }
+    // cout << prod ;
+
+
+// Print the maximum element in the array 
+
+
 }
