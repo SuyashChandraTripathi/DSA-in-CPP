@@ -101,6 +101,50 @@ int main(){
     //     if (arr[i] < min) min = arr[i] ;
     // }
     // cout << "\nMinimum value element among all in the array is --> " << min ;
+
+
+// You are given an array and an integer, find out if this integer is present in the array. 
+    // int arr[] = {62 , 34 , 53 , 98 , -21 , 55 , -44 , -12} ; 
+    // int n = sizeof(arr)/sizeof(arr[0]) ;
+    // int target ;
+    // cout << "Enter the target element: ";
+    // cin >> target ;
+    // bool flag = false ; // false is not present
+    // for(int i = 0 ; i < n ; i++){
+    //     if(arr[i] == target){
+    //         flag = true ; // true means present
+    //         break ; 
+    //     }
+    // }
+    // if (flag == true) cout << "Element Found" ;
+    // else cout << "Element not Found" ;
     
+
+// Print the second maximum element in the array.
+    // int n ;
+    // cout << "Enter the number of element in the array: " ;
+    // cin >> n ;
+    // int arr[n] ;
+    // cout << "Enter each element of the array: " ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     cin >> arr[i] ;
+    // }
+    // cout << "\nThe array in the  given input is --> " ;
+    // for (int i = 0 ; i <= n-1 ; i++){
+    //     cout << arr[i] << " " ;
+    // }
+    // int max = INT_MIN ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     if (arr[i] > max) max = arr[i] ;
+    // }
+    // int Smax = INT_MIN ;
+    // for(int i = 0 ; i <= n-1 ; i++){
+    //     if(arr[i] > Smax && arr[i] != max){
+    //         Smax = arr[i] ;    
+    //     }
+    // }
+    // cout << "\nThe second maximum element in the array is --> " << Smax ;
+
+
 }
 
