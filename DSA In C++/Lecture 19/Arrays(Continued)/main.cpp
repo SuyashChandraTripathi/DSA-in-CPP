@@ -32,3 +32,19 @@ using namespace std ;
     // }
 
 
+// STATIC AND DYNAMIC ALLOCATION 
+    // int main (){
+    //     int arr[7] ; //Static Allocation
+    //     int* brr = new int[7] ; //Dynamic Allocation
+
+
+// POINTERS ARRAYS
+    // int main(){
+    //     int* brr = new int[7] ;
+    //     brr[0] =  3 ;
+    //     for(int i = 0 ; i<= 7 ; i++){
+    //         cout << brr[i] << " " ;
+    //     }
+    // }
+
+
